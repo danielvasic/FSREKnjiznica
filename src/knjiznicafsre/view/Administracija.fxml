@@ -15,7 +15,7 @@
          </font>
       </Label>
       <Button contentDisplay="TOP" layoutX="490.0" layoutY="244.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="100.0" text="Dodaj knjigu" textAlignment="CENTER" textOverrun="CENTER_ELLIPSIS" wrapText="true" AnchorPane.rightAnchor="10.0" />
-    <Button contentDisplay="TOP" layoutX="453.0" layoutY="53.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="100.0" text="Dodaj člana" textAlignment="CENTER" wrapText="true" AnchorPane.rightAnchor="10.0" AnchorPane.topAnchor="50.0" />
+    <Button id="dodaj_clana" contentDisplay="TOP" layoutX="453.0" layoutY="53.0" mnemonicParsing="false" onAction="#otvori_dodaj_korisnika" prefHeight="25.0" prefWidth="100.0" text="Dodaj člana" textAlignment="CENTER" wrapText="true" AnchorPane.rightAnchor="10.0" AnchorPane.topAnchor="50.0" />
       <Button layoutX="490.0" layoutY="211.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="100.0" text="Traži knjigu" textAlignment="CENTER" textOverrun="CENTER_ELLIPSIS" wrapText="true" AnchorPane.rightAnchor="10.0" AnchorPane.topAnchor="211.0" />
       <Button layoutX="490.0" layoutY="82.00000000000003" mnemonicParsing="false" prefHeight="18.0" prefWidth="100.0" text="Traži člana" textAlignment="CENTER" textOverrun="CENTER_ELLIPSIS" wrapText="true" AnchorPane.rightAnchor="10.0" />
       <TableView cache="true" layoutX="14.0" layoutY="14.0" prefHeight="174.0" prefWidth="464.0">
